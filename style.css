@@ -1,0 +1,75 @@
+body{
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+    display: grid;
+    grid-template-areas: 'header header header header'
+    'navbar navbar navbar navbar'
+    'section section section aside'
+    'batata batata batata batata'
+    'footer footer footer footer';
+    grid-auto-rows: 20vh 15vh 60vh 70vh 30vh;
+    grid-auto-columns: 24vw 24vw 24vw 27vw;
+    margin: 0%;
+}
+nav{
+    grid-area: navbar;
+    background-color: orangered;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: beige;
+    padding: 10px;
+}
+header{
+    grid-area: header;
+    background-color: chocolate;
+    display: flex;
+    justify-content: flex-start;
+}
+header img{
+    height: 100%;
+    border-radius: 40px;
+}
+.batata{
+    grid-area: batata;
+    background-image: url("img/neymar.jpg");
+    background-size: cover;
+    text-align: center;
+    color: red;
+}
+.fake p{
+    font-size: 3.6rem;
+}
+
+section{
+    grid-area: section;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+}
+section div iframe{
+    width: 100%;
+}
+
+aside{
+    grid-area: aside;
+    background-color: blue;
+}
+
+footer{
+    grid-area: footer;
+    background-color: black;
+}
+
+teste-2{
+    font-size: 1.2rem;
+}
+
+teste-3{
+    font-size: 1.2rem;
+}
